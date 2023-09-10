@@ -1,0 +1,56 @@
+
+   /* BoxContainer.css */
+   .box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* .main-box {
+    width: 400px;
+    height: 200px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+  } */
+  
+  .sub-boxes {
+    display: flex;
+    gap: 1px;
+  }
+  
+  .sub-boxes {
+    display: flex;
+    gap: 1px;
+  }      
+  
+  .sub-box {
+    width: 300px;
+    height: 350px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+  }
+
+  /* Mobile optimization */
+@media (max-width: 768px) {
+  .box-container {
+    align-items: stretch;
+  }
+  
+  .sub-box {
+    flex-basis: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+  }
+}

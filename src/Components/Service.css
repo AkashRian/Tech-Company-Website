@@ -1,0 +1,63 @@
+/* Box.css */
+.testimonial-hub{
+    width: 100%;
+    height: 570px;
+    background-color: #DBE3EA;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+.blog-4{
+    width: 635px;
+    height: 380px;
+    border-radius: 25px 25px 25px 25px;
+    margin: -37px 0px 0px -590px;
+
+
+
+
+}
+.serv-cont{
+    margin: -300px 0px 0px 445px;
+    color: #0a0d53;
+
+}
+.serv-contb{
+    margin: 17px 0px 0px 520px;
+    color: #0a0d53;
+
+}
+.serv-contc{
+    /* margin: -300px 0px 0px 684px; */
+    margin: 17px 0px 0px 681px;
+
+    color: #0a0d53;
+
+}
+.butto{
+        background-color: #F45D29;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        /* margin: 4px 2px; */
+        cursor: pointer;
+        border-radius: 20px;
+        margin: 64px 0px 0px 367px;
+        width: 186px;
+    }
+        
+      .testim{
+        width:200px;
+      }
+      .client{
+        width: 200px;
+      }
+

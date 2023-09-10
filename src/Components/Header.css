@@ -1,0 +1,39 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* background-color: #d0dbf7; */
+    color: black;
+  }
+  
+  .logo img {
+    max-width: 100px;
+    height: auto;
+    
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .button4 {
+    border-radius: 12px;
+    height: 30px;
+    background-color: #F45D29;
+  }
+  
+  
+  /* Add additional styling as needed */
+  

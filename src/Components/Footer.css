@@ -1,0 +1,147 @@
+
+
+.footer-section{
+    /* background-color: #86eb81; */
+    height: 80px;
+    position: absolute;
+    left: auto;
+    color: #4B5863;
+    width: 200px;
+    /* border: 3px solid blue; */
+    
+}
+
+.footer-final{
+    background-color: white;
+    height: 800px;
+    width: 100%;
+
+}
+.footer-secti{
+    /* background-color: #4c20dc; */
+    height: 100px;
+    width: 600px;
+    position: relative;
+    bottom: -85px;
+    /* right: 4px; */
+    color: #0a0d53;
+   
+    /* border: 3px solid #73AD21; */
+
+}
+
+.footer-fbox{
+    /* background-color: #4c20dc; */
+    height: 500px;
+    width: 100%;
+    position: relative;
+    bottom: -84px;
+    right:0;
+   
+    /* border: 3px solid #cfd5c7; */
+    /* display: flex;
+     flex-direction: row;
+    justify-content: space-between; */
+    /* flex-direction: row; */
+    /* justify-content: space-evenly;  */
+}
+.imp-box{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    width: 100%;
+
+
+}
+    
+    
+
+
+/* .footer-fbox1{
+    background-color: hsl(255, 51%, 84%);
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+
+} */
+/* .footer-fbox2{
+    background-color: #ccc2eb;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+
+}
+.footer-fbox3{
+    background-color: #ccc2eb;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+
+} */
+.img-serv1{
+    width: 600px;
+    height: 524px;
+    border-radius: 13px;
+
+
+
+}
+.img-div1{
+    margin: -17px 0px 0px -627px;
+
+}
+.img-serv2{
+    width: 300px;
+    height: 524px;
+    border-radius: 13px;
+    /* margin: 14px 0px 0px -90px; */
+
+}
+.img-div2{
+    /* margin: -506px 0px 0px 200px; */
+    margin: -527px 0px 0px 298px;
+
+
+}
+.img-serv3{
+    width: 300px;
+    height: 524px;
+    border-radius: 13px;
+    /* margin: -128px; */
+
+}
+.img-div3{
+    margin: -527px 0px 0px 923px;
+
+}
+/* css for over image content */
+
+.button-im {
+    background-color: #7d8d8e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 13px;
+  }
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  .micro{
+    color: #ffe360;
+  }
+  .lorem{
+    color: white;
+  }
+  .second-img{
+    font-size: small;
+    color: #ffe360;
+
+  }

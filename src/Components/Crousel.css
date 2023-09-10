@@ -1,0 +1,74 @@
+/* Box.css */
+.box-crousel {
+    /* width: 90%; */
+    /* height: 100px; */
+    /* background-color: #d0dbf7; */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    margin: 14px;
+    margin: 14px 0px 0px 0px;
+    height: 162px;
+
+  }
+  .img-crouse{
+    width: 200px;
+
+
+  }
+  .crs-im1{
+    margin: 0px 0px 0px 100px;
+    width: 40px;
+    height: 40px;
+    /* background-image src: ".\images\logo-1.png""; */
+  }
+  .crs-im2{
+    margin: 0px 0px 0px 300px;
+  }
+  .crs-im3{
+    margin: 0px 0px 0px 400px;
+  }
+  .crs-im3{
+    margin: 0px 0px 0px 500px;
+  }
+  .crs-im3{
+    margin: 0px 0px 0px 00px;
+  }
+  .crouse-im1{
+    /* background-color: aquamarine; */
+  }
+  .crouse-img{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+  .
+
+
+  /* scrolling images  */
+
+  .scrolling-image-container {
+    width: 100%;
+    height: 80px; /* Adjust the height as needed */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .scrolling-image-container img {
+    position: absolute;
+    animation: scrollLeft 10s linear infinite;
+  }
+  
+  @keyframes scrollLeft {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  

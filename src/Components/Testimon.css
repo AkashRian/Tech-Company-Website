@@ -1,0 +1,62 @@
+/* Box.css */
+.testimonial-box {
+    width: 100%;
+    height: 700px;
+    background-color: #a9d6f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+ 
+
+
+
+.test-client{
+    /* background-color: rgb(240, 198, 198); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 319px;
+    margin: -628px 0px 0px -942px;
+    color: #4B5863;
+    font-family: "inter tight", sans-serif;
+    font: 16px;
+
+}
+.tag-test{
+	margin: 18px;
+    width: 73px;
+    height: 26px;
+}
+
+
+/* image slider */
+/* .crousel{
+    background-color: darkslategrey;
+    height: 616px;
+    width: 400px;
+    margin: -20x 0px 0px 704px;
+
+
+
+}
+.slider-cro{
+    
+} */
+.containe{
+    margin: 3px 0px 0px 799px;
+    position: absolute;
+    height: 500px;
+    width:350px;
+    /* background-color:bisque; */
+
+
+}
+.award{
+    width: 200px;
+}
